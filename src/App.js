@@ -1,11 +1,13 @@
 import React, { Component } from "react";
-import ProductList from "./components/ProductList";
+import ListProduct from "./components/ListProduct";
+
 
 export default class App extends Component {
   render() {
+    
     return (
       <div>
-        <ProductList />
+        <ListProduct />
       </div>
     );
   }
