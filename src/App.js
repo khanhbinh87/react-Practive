@@ -1,5 +1,6 @@
 import { Component } from "react";
-import Cart from "./components/Xe/Cart";
+// import Cart from "./components/Xe/Cart";
+import ProductRedux from "./redux/ProductRedux";
 // import Modal from "./components/Xe/ModalCart";
 // import ProductList from "./components/Xe/ProductList";
 
@@ -52,7 +53,8 @@ export default class App extends Component {
           listProducts={this.listProducts}
           handleItem={this.handleItem}
         /> */}
-        <Cart />
+        {/* <Cart /> */}
+        <ProductRedux />
       </div>
     );
   }
